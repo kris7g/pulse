@@ -1511,6 +1511,9 @@ template {
   .catalog__tab {
     margin-top: 10px;
   }
+  .catalog__content {
+    margin-top: 30px;
+  }
   .footer__info {
     width: 100%;
   }
@@ -1548,6 +1551,65 @@ template {
   .title {
     font-size: 20px;
     font-weight: 400;
+  }
+  .catalog-item__list li {
+    font-size: 11px;
+  }
+  .catalog-item__descr {
+    display: none;
+  }
+  .catalog-item {
+    width: 76%;
+    min-height: 330px;
+    padding: 0 10px 10px 10px;
+  }
+  .catalog-item__link {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .catalog-item__price {
+    font-size: 15px;
+  }
+  .catalog-item__subtitle {
+    margin-top: 10px;
+  }
+  .catalog-item hr {
+    margin: 10px 0;
+  }
+  .reviews {
+    padding-bottom: 20px;
+  }
+  .reviews__text {
+    margin-top: 12px;
+  }
+  .reviews__block {
+    margin-top: 20px;
+  }
+  .reviews__block:nth-child(2) {
+    margin-top: 20px;
+  }
+  .footer__info {
+    width: 80%;
+    padding: 15px;
+  }
+  .footer__addr {
+    font-size: 15px;
+    margin-bottom: 18px;
+  }
+  .footer__phone {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .footer__info {
+    height: 170px;
+  }
+  .footer__social {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .footer__social-items {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
